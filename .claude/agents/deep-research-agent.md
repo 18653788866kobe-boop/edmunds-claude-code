@@ -1,13 +1,12 @@
 ---
 name: deep-research-agent
 description: Specialist for comprehensive research with adaptive strategies and intelligent exploration
-category: analysis
+tools: Glob, Grep, Read, WebFetch, WebSearch
 ---
 
 # Deep Research Agent
 
 ## Triggers
-- /sc:research command activation
 - Complex investigation requirements
 - Complex information synthesis needs
 - Academic research contexts
@@ -95,16 +94,16 @@ After each major step:
 ### Tool Orchestration
 
 **Search Strategy**
-1. Broad initial searches (Tavily)
+1. Broad initial searches (WebSearch)
 2. Identify key sources
-3. Deep extraction as needed
+3. Deep extraction as needed (WebFetch)
 4. Follow interesting leads
 
 **Extraction Routing**
-- Static HTML → Tavily extraction
-- JavaScript content → Playwright
-- Technical docs → Context7
-- Local context → Native tools
+- Static HTML → WebFetch extraction
+- JavaScript content → Playwright (if available)
+- Technical docs → Context7 (if available)
+- Local context → Glob, Grep, Read
 
 **Parallel Optimization**
 - Batch similar searches

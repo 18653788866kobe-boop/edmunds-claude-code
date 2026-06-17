@@ -1,5 +1,6 @@
 ---
-model: claude-sonnet-4-5
+description: Generate detailed code explanations
+model: claude-sonnet-4-6
 ---
 
 # Code Explanation and Analysis
@@ -363,7 +364,7 @@ class AlgorithmVisualizer:
 ### Call Stack Visualization:
 ````
 
-{func*name}({example_input})
+{func_name}({example_input})
 │
 ├─> Base case check: {example_input} == 0? No
 ├─> Recursive call: {func_name}({example_input - 1})

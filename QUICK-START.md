@@ -8,7 +8,7 @@
 # Visibility: Public
 
 # 2. Push your code
-cd ~/Documents/GitHub/edmunds-claude-code
+cd /path/to/edmunds-claude-code
 git remote add origin https://github.com/edmund-io/edmunds-claude-code.git
 git push -u origin main
 
@@ -33,7 +33,7 @@ git push -u origin main
 
 ## Repository Location
 
-`~/Documents/GitHub/edmunds-claude-code/`
+Your local clone directory (e.g. `~/Documents/GitHub/edmunds-claude-code/`)
 
 ## Next Steps
 

@@ -26,7 +26,7 @@ Complete step-by-step instructions for publishing your Claude Code plugin to Git
 Once the GitHub repository is created, run these commands:
 
 ```bash
-cd ~/Documents/GitHub/edmunds-claude-code
+cd /path/to/edmunds-claude-code
 
 # Add the GitHub remote
 git remote add origin https://github.com/edmund-io/edmunds-claude-code.git
@@ -125,6 +125,17 @@ Perfect for Next.js, React, TypeScript, and Supabase projects!
 GitHub: https://github.com/edmund-io/edmunds-claude-code
 ```
 
+## Step 4: Create Your First Release
+
+Tag your initial release so users can reference a stable version:
+
+```bash
+git tag -a v1.0.0 -m "Initial release: 14 commands + 11 agents"
+git push origin v1.0.0
+```
+
+Then on GitHub, go to **Releases → Create a new release**, select `v1.0.0`, and publish it.
+
 ## Step 5: Maintain Your Plugin
 
 ### Updating Your Plugin
@@ -132,7 +143,7 @@ GitHub: https://github.com/edmund-io/edmunds-claude-code
 When you make changes to your local setup:
 
 ```bash
-cd ~/Documents/GitHub/edmunds-claude-code
+cd /path/to/edmunds-claude-code
 
 # Make your changes to commands/agents
 # Then commit and push
