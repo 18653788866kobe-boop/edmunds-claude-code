@@ -16,7 +16,7 @@ My personal Claude Code configuration for productive web development. This plugi
 
 ### 📋 Development Commands (7)
 
-- `/new-task` - Analyze code for performance issues
+- `/new-task` - Analyze task complexity and plan implementation
 - `/code-explain` - Generate detailed explanations
 - `/code-optimize` - Performance optimization
 - `/code-cleanup` - Refactoring and cleanup

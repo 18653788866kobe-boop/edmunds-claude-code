@@ -1,5 +1,6 @@
 ---
-model: claude-sonnet-4-5
+description: Generate detailed code explanations and analysis
+model: sonnet
 ---
 
 # Code Explanation and Analysis

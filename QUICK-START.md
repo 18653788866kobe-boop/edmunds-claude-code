@@ -40,7 +40,7 @@ git push -u origin main
 1. **Read PUBLISHING.md** - Full step-by-step guide
 2. **Create GitHub Repo** - https://github.com/new
 3. **Push Code** - See commands above
-4. **Test Installation** - `/plugin install edmund-io/edmunds-claude-code`
+4. **Test Installation** - `/plugin marketplace add edmund-io/edmunds-claude-code` then `/plugin install edmunds-claude-code`
 5. **Share** - Post on social media, submit to marketplaces
 
 ## Installation Commands (for users)

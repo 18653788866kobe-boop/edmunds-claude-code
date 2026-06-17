@@ -13,7 +13,7 @@
       "version": "1.0.0",
       "author": {
         "name": "Edmund",
-        "email": "[email protected]"
+        "url": "https://github.com/edmund-io"
       },
       "tags": ["productivity", "nextjs", "supabase", "typescript", "react", "development"]
     }

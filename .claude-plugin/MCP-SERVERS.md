@@ -65,15 +65,17 @@ After installing this plugin:
 
 ## Adding More MCP Servers
 
-You can add custom MCP servers to your local `.claude/.mcp.json`:
+You can add custom MCP servers to your local `.mcp.json` (note the required `mcpServers` wrapper):
 
 ```json
 {
-  "server-name": {
-    "command": "npx",
-    "args": ["-y", "package-name"],
-    "env": {
-      "API_KEY": "your-key"
+  "mcpServers": {
+    "server-name": {
+      "command": "npx",
+      "args": ["-y", "package-name"],
+      "env": {
+        "API_KEY": "your-key"
+      }
     }
   }
 }

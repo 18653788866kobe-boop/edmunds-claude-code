@@ -44,8 +44,9 @@ If you encounter authentication issues:
 Test that your plugin can be installed:
 
 ```bash
-# Install from your GitHub repo
-/plugin install edmund-io/edmunds-claude-code
+# Add the marketplace, then install the plugin by name
+/plugin marketplace add edmund-io/edmunds-claude-code
+/plugin install edmunds-claude-code
 
 # Verify commands are available
 /code-explain
@@ -65,10 +66,11 @@ Your README already includes your GitHub username `edmund-io`, so users can copy
 
 ### Option A: Share Direct Installation Command
 
-Share this command with others:
+Share these commands with others:
 
 ```bash
-/plugin install edmund-io/edmunds-claude-code
+/plugin marketplace add edmund-io/edmunds-claude-code
+/plugin install edmunds-claude-code
 ```
 
 ### Option B: Submit to Community Marketplaces
@@ -110,7 +112,8 @@ Example post:
 14 slash commands + 11 specialized AI agents for productive web development
 
 Install with:
-/plugin install edmund-io/edmunds-claude-code
+/plugin marketplace add edmund-io/edmunds-claude-code
+/plugin install edmunds-claude-code
 
 Features:
 ✅ API scaffolding (/api-new)
@@ -125,7 +128,7 @@ Perfect for Next.js, React, TypeScript, and Supabase projects!
 GitHub: https://github.com/edmund-io/edmunds-claude-code
 ```
 
-## Step 5: Maintain Your Plugin
+## Step 4: Maintain Your Plugin
 
 ### Updating Your Plugin
 
@@ -194,9 +197,10 @@ For major versions, create GitHub releases:
 5. Description: List of features/changes
 6. Click "Publish release"
 
-Users can install specific versions:
+After adding the marketplace, users install the published version:
 ```bash
-/plugin install edmund-io/edmunds-claude-code@v1.0.0
+/plugin marketplace add edmund-io/edmunds-claude-code
+/plugin install edmunds-claude-code
 ```
 
 ## Success Metrics
